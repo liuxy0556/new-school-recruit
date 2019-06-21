@@ -7,7 +7,7 @@
 <script>
   export default {
     created () {
-      console.log('V 1.1.061801')
+      console.log('V 1.1.062101')
     }
   }
 </script>
