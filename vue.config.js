@@ -22,6 +22,7 @@ module.exports = {
     ]
   },
   publicPath: process.env.NODE_ENV === 'production'?'/new-school-recruit/':'/',
+  outputDir: 'docs',
   chainWebpack: config => {
     config.resolve.alias.set('vue$', 'vue/dist/vue.common.js') // key,value自行定义，比如.set('@@', resolve('src/components'))
     config.resolve.alias.set('@', resolve('src'))
