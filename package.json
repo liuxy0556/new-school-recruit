@@ -1,0 +1,38 @@
+{
+  "name": "new-school-recruit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "shengya-ui": "^0.0.13",
+    "vant": "^2.0.1",
+    "vconsole-webpack-plugin": "^1.4.2",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "vue-template-compiler": "^2.6.10",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "postcss-pxtorem": "^4.0.1"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

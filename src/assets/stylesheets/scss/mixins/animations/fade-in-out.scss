@@ -1,0 +1,10 @@
+@mixin animation-fade-in-out () {
+  $speed-start-end: .12s;
+
+  .fade-in-out-enter-active, .fade-in-out-leave-active {
+    transition: opacity $speed-start-end ease-in-out;
+  }
+  .fade-in-out-enter, .fade-in-out-leave-active {
+    opacity: 0;
+  }
+}

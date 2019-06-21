@@ -1,0 +1,25 @@
+.van-tabs__nav--line {
+  padding-bottom: 10px;
+}
+
+.star {
+  .van-rate__item {
+    padding: 0 0;
+  }
+}
+.student-star {
+  .van-rate__item {
+    padding: 0 2px;
+  }
+}
+.score-input {
+  .van-field__control {
+    color: #00A871;
+    //font-size: 26px;
+    font-weight: 400;
+  }
+}
+
+.van-cell:not(:last-child)::after {
+  border-bottom: none;
+}
